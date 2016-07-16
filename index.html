@@ -12,20 +12,33 @@
 	<div id = "timerDial">
 		<p id = "timerDialHelpfulText">Set the time:</p>
 		<input type="text" value="10" class="dial">
-		<p id = "timerDialDisplay">00:00</p>
-		<button id = "setTimerButton">Set Time</button>
+		<p id = "timerDialDisplay">15:00</p>
+		<button id = "setTimerButton" onclick = "beginTimerFunction()">Set Time</button>
 	</div>
 
-	<div id = "timerTreeDisplay">
-		<img src = "tree_alive.png" id = "treeAliveImage">
-		<img src = "tree_dead.png" id = "treeDeadImage">
-		<button id = "showTreesButton">click to show trees</button>
+	<div id = "timerTreeDisplayText">
+		<p>Stay on this page to avoid killing the tree!</p>
 	</div>
-	
+
+	<div class = "responsive" id = "responsive">
+		<div class = "img-container">
+			<img src = "tree_alive.png" id = "treeAliveImage">
+			<img src = "tree_dead.png" id = "treeDeadImage">
+		</div>	
+	</div>
+
+	<div id = "timerTreeDisplayTimer">
+		<p id = "timer">TEST</p>
+	</div>
+
+
+
 	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="jquery.knob.min.js"></script>
 	<script src = "treetime_animations.js"></script>
 	<script src = "treetime_knob.js"></script>
+	<script src = "treetime_timer.js"></script>
+	<script src = "treetime_notifications.js"></script>
 	<script src = "treetime_timer.js"></script>
 </body>
 </html>
