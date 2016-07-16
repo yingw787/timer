@@ -17,10 +17,33 @@ p {
 	color: green;
 }
 
+#setTimerButton {
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#timerTreeDisplay {
+	right: 12%;
+	margin-top: -300px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+}
+
+#treeAliveImage, #treeDeadImage{
+	position: absolute;
+	display: none;
+}
 
 #timerDial {
 	left: 0;
-	/*line-height: 200px;*/
 	margin-top: -300px;
 	position: absolute;
 	text-align: center;
