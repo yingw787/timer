@@ -1,0 +1,29 @@
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5vw;
+	left: 0;
+	line-height: 200px;
+	margin-top: -100px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	color: green;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: green;
+}
+
+
+#timerDial {
+	left: 0;
+	/*line-height: 200px;*/
+	margin-top: -300px;
+	position: absolute;
+	text-align: center;
+	top: 60%;
+	width: 100%;
+}
